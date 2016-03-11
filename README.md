@@ -1,2 +1,0 @@
-# jessiealbarian
-My personal site

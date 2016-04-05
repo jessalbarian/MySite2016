@@ -1,16 +1,17 @@
 body {
-	background-color: #0f1426;
+	background-color: #040509;
 	font-family: "Work Sans", Helvetica, "Times New Roman", sans-serif;
 	color: #fff;
 }
 
 p {
-	color: #b2b2b2;
+	color: #fff;
+	font-weight: 300;
 }
 /*39517f*/
 /*222a59*/
 #top-bar {
-	background: #0f1426;
+	background: #040509;
 	/*height:50px;*/
 	/*float:left;*/
 	width:100%;
@@ -74,13 +75,13 @@ i {
 }
 .helping-text {
 	margin:0px;
-	color: #b2b2b2;
+	color: #fff;
 }
 .progress {
 	height: 6px;
 	border-radius: 0;
 	box-shadow: none;
-	background: #c8c8c8;
+	background: #fff;
 }
 .progress .progress-bar, .progress .progress-bar-default {
 	background-color: #3ba8ad;

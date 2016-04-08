@@ -42,7 +42,7 @@ img.circle {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	/*border: 7px solid black;*/
+	border: 7px solid black;
 	background-clip: padding-box;
 	/*margin-bottom: 10em;*/
 }
@@ -59,9 +59,9 @@ i {
 .left-side .user-img {
 	width:85%;
 	display:block;
-	margin:0px auto;
-	-webkit-filter: grayscale(1);
-	filter: grayscale(1);
+	margin: 0;
+	/*-webkit-filter: grayscale(1);*/
+	/*filter: grayscale(1);*/
 }
 .block {
 	margin-bottom:25px;
@@ -129,9 +129,9 @@ i {
 .card .card-image span.card-title i{ cursor:pointer;}
 
 .face img {
-	width: 25%;
+	width: 10%;
 	/*-webkit-filter: grayscale(1);*/
-	filter: grayscale(1);
+	/*filter: grayscale(1);*/
 }
 
 .h3 {

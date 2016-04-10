@@ -7,6 +7,7 @@ body {
 p {
 	color: #fff;
 	font-weight: 300;
+	font-size: 1.1em;
 }
 /*39517f*/
 /*222a59*/
@@ -202,7 +203,8 @@ h5 {
 }
 
 #about p {
-	text-size: 1.7em;
+	font-size: 1.5em;
+	line-height: 1.2em;
 	color: #fff;
 }
 

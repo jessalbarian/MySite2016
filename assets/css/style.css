@@ -61,8 +61,8 @@ i {
 	width:85%;
 	display:block;
 	margin: 0;
-	/*-webkit-filter: grayscale(1);*/
-	/*filter: grayscale(1);*/
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
 }
 .block {
 	margin-bottom:25px;

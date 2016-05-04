@@ -85,7 +85,8 @@ i {
 	background: #fff;
 }
 .progress .progress-bar, .progress .progress-bar-default {
-	background-color: #3ba8ad;
+	/*background-color: #3ba8ad;*/
+	background-color: #4F6499;
 }
 .progress-bar {
 	box-shadow: none;
@@ -96,7 +97,7 @@ i {
 	line-height: 20px;
 	color: #fff;
 	text-align: center;
-	background-color: #3ba8ad;
+	background-color: #4F6499;
 	-webkit-transition: width .6s ease;
 	-o-transition: width .6s ease;
 	transition: width .6s ease;
@@ -151,7 +152,7 @@ i {
 }
 
 .social i:hover {
-	color: #3ba8ad;;
+	color: #4F6499;;
 }
 
 /*.typed-cursor{*/
@@ -178,20 +179,21 @@ i {
 
 .flatiron img {
 	bottom: 0;
+	opacity: .8;
 	position: fixed;
 	width: 100%;
 	z-index: -1;
 }
 
 a {
-	color: #3ba8ad;
+	color: #4F6499;
 }
 a:hover {
 	color: #fff;
 }
 
 h1, h2, h3, h4, h5 {
-	color: #3ba8ad;
+	color: #4F6499;
 	font-weight: 400;
 }
 h5 {

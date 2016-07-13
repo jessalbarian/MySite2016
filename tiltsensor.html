@@ -4,46 +4,26 @@
     <meta charset="UTF-8">
     <title>Tilt Sensor</title>
 
-    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
 </head>
 <body>
 
 
-
+<div ng-app="tiltsensorarduino" ng-controller="dataCtrl">
 <h2>Arduino Data</h2>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 
-
+</div>
 
 
 
 </body>
-
-
-    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
 <script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyDRkKBPzNhp_rMC7WSvF1ZNAuw46e9qN24",
-        authDomain: "tiltsensorarduino.firebaseapp.com",
-        databaseURL: "https://tiltsensorarduino.firebaseio.com",
-        storageBucket: "tiltsensorarduino.appspot.com",
-    };
-    firebase.initializeApp(config);
-</script>
-
-<script>
-    var ref = new Firebase("https://tiltsensorarduino.firebaseio.com");
-    var usersRef = ref.child("users");
-    usersRef.set({
-        alanisawesome: {
-            date_of_birth: "June 23, 1912",
-            full_name: "Alan Turing"
-        },
-        gracehop: {
-            date_of_birth: "December 9, 1906",
-            full_name: "Grace Hopper"
-        }
-    });
+    
 </script>
 </html>

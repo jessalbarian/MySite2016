@@ -4,26 +4,45 @@
     <meta charset="UTF-8">
     <title>Tilt Sensor</title>
 
+    <!-- CSS -->
+    <link href="assets/css/custom.css" type="text/css" rel="stylesheet"/>
 
 </head>
 <body>
-
-
-<div ng-app="tiltsensorarduino" ng-controller="dataCtrl">
-<h2>Arduino Data</h2>
-    <table>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-
+<div id="borders" class="center">
+<h2>Beer Data</h2>
+    <!--<div>-->
+        <!--<h5 id="date"></h5>-->
+    <!--</div>-->
+    <!--<table id="beerinfo">-->
+        <!--<tr>-->
+            <!--<td>Number of Beers</td>-->
+            <!--<td>Tilt Number</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>{{}}</td>-->
+            <!--<td>{{}}</td>-->
+        <!--</tr>-->
+    <!--</table>-->
 </div>
 
 
 
 </body>
 <script>
-    
+    // Add Date
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; //January is 0!
+    var yyyy = today.getFullYear();
+    if(dd<10) {
+        dd='0'+dd
+    }
+    if(mm<10) {
+        mm='0'+mm
+    }
+    today = mm+'/'+dd+'/'+yyyy;
+    var div = document.getElementById('date');
+    div.innerHTML = div.innerHTML + today;
 </script>
 </html>
